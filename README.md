@@ -1,6 +1,8 @@
-# 🦁 Wild Parkway - Wildlife Explorer Website
+<img width="3360" height="5064" alt="wil-min" src="https://github.com/user-attachments/assets/bca12b0c-9a69-4a9a-a688-3c99758d927e" /># 🦁 Wild Parkway - Wildlife Explorer Website
 
 A modern, responsive wildlife exploration website built with Bootstrap 5, featuring comprehensive information about animals from around the world.
+
+![Uploading<img width="3360" height="6568" alt="xy-min" src="https://github.com/user-attachments/assets/d21660d3-23cb-48a5-9d92-7a88261e63f4" />
 
 
 ## 🌟 Project Overview
