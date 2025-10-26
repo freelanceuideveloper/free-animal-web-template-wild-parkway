@@ -1,8 +1,6 @@
-<img width="3360" height="5064" alt="wil-min" src="https://github.com/user-attachments/assets/bca12b0c-9a69-4a9a-a688-3c99758d927e" /># 🦁 Wild Parkway - Wildlife Explorer Website
+# 🦁 Wild Parkway - Wildlife Explorer Website
 
 A modern, responsive wildlife exploration website built with Bootstrap 5, featuring comprehensive information about animals from around the world.
-
-![Uploading<img width="3360" height="6568" alt="xy-min" src="https://github.com/user-attachments/assets/d21660d3-23cb-48a5-9d92-7a88261e63f4" />
 
 
 ## 🌟 Project Overview
@@ -176,14 +174,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author Information
 
-**Website Developer**: freeelanceuideveloper.com
+**Website Developer**: freelanceuideveloper.com
 **Project Type**: Wildlife Education Platform
 **Development Year**: 2025
 **Framework**: Bootstrap 5 + Custom CSS
 **Status**: Production Ready
 
 ### Contact Developer
-- **Website**: [freeelanceuideveloper.com](https://freeelanceuideveloper.com)
+- **Website**: [freelanceuideveloper.com](https://freelanceuideveloper.com)
 - **Email**: iam@freelanceuideveloper.com
 - **Specialization**: Modern responsive web design, UI/UX development
 - **Technologies**: HTML5, CSS3, Bootstrap, JavaScript, Responsive Design
@@ -194,6 +192,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for wildlife lovers by [freeelanceuideveloper.com](https://freeelanceuideveloper.com)**
+**Made with ❤️ for wildlife lovers by [freelanceuideveloper.com](https://freelanceuideveloper.com)**
 
 *Discover the amazing world of wildlife with Wild Parkway - where education meets beautiful design.*
