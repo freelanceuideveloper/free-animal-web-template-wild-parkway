@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wild Parkway - Discover Amazing Animals</title>
+        <meta name="author" content="Vega, Freelance UI Developer, freelanceuideveloper.com">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <i class="bi bi-at text-primary"></i>
+                    <span class="text-primary">Wild</span>
+                    <span class="text-secondary">Parkway</span>
+                </a>
+                <button
+                    class="navbar-toggler custom-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                            >
+                                Animals
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="mammals.html">
+                                        <i class="bi bi-heart me-2"></i>
+                                        Mammals
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="birds.html">
+                                        <i class="bi bi-feather me-2"></i>
+                                        Birds
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="reptiles.html">
+                                        <i class="bi bi-egg me-2"></i>
+                                        Reptiles
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="fish.html">
+                                        <i class="bi bi-water me-2"></i>
+                                        Fish
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="invertebrates.html">
+                                        <i class="bi bi-bug me-2"></i>
+                                        Invertebrates
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="amphibians.html">
+                                        <i class="bi bi-droplet me-2"></i>
+                                        Amphibians
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="hero-section" style="background-image: url('assets/images/tiger.jpg');">
+            <div class="container position-relative">
+                <div class="row align-items-center min-vh-100 pt-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div class="hero-content">
+                            <div class="hero-badge mb-4">
+                                <i class="bi bi-compass me-2"></i>
+                                <span>Wild Parkway</span>
+                            </div>
+                            <h1 class="display-2 fw-bold text-white mb-4">
+                                Discover the Amazing World of
+                                <span class="text-gradient">Wild</span>
+                            </h1>
+                            <p class="lead text-white mb-5 mx-auto" style="max-width: 600px; opacity: 0.9;">
+                                Explore fascinating creatures from around the globe. Learn about mammals, birds, reptiles, fish, and more in our comprehensive Wild guide.
+                            </p>
+                            <div class="hero-buttons d-flex flex-wrap justify-content-center gap-3 mb-5">
+                                <a href="#categories" class="btn btn-hero-primary btn-lg">
+                                    <i class="bi bi-compass me-2"></i>
+                                    Start Exploring
+                                </a>
+                                <a href="contact.html" class="btn btn-hero-secondary btn-lg">
+                                    <i class="bi bi-envelope me-2"></i>
+                                    Contact Us
+                                </a>
+                            </div>
+                            <div class="hero-features">
+                                <div class="row g-4 text-white">
+                                    <div class="col-md-3 col-6">
+                                        <div class="feature-item">
+                                            <div class="feature-icon mb-2">
+                                                <i class="bi bi-heart-fill"></i>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Mammals</h6>
+                                            <small class="opacity-75">6,400+ Species</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="feature-item">
+                                            <div class="feature-icon mb-2">
+                                                <i class="bi bi-feather"></i>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Birds</h6>
+                                            <small class="opacity-75">10,000+ Species</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="feature-item">
+                                            <div class="feature-icon mb-2">
+                                                <i class="bi bi-water"></i>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Marine Life</h6>
+                                            <small class="opacity-75">230,000+ Species</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="feature-item">
+                                            <div class="feature-icon mb-2">
+                                                <i class="bi bi-globe"></i>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Global</h6>
+                                            <small class="opacity-75">All Continents</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <a href="#categories" class="text-white text-decoration-none">
+                    <i class="bi bi-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+        <!-- Animal Categories -->
+        <section id="categories" class="py-5 bg-light">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="display-5 fw-bold text-primary mb-4">Animal Categories</h2>
+                        <p class="lead text-muted">Discover different groups of animals and their unique characteristics</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="category-icon mb-3">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3">Mammals</h5>
+                                <p class="card-text text-muted mb-4">
+                                    Warm-blooded vertebrates with hair or fur, including elephants, dolphins, and humans.
+                                </p>
+                                <a href="mammals.html" class="btn btn-primary">
+                                    <i class="bi bi-arrow-right me-2"></i>
+                                    Explore Mammals
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="category-icon mb-3">
+                                    <i class="bi bi-feather"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3">Birds</h5>
+                                <p class="card-text text-muted mb-4">
+                                    Feathered, winged creatures that have adapted to life in the air, from tiny hummingbirds to mighty eagles.
+                                </p>
+                                <a href="birds.html" class="btn btn-primary">
+                                    <i class="bi bi-arrow-right me-2"></i>
+                                    Explore Birds
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="category-icon mb-3">
+                                    <i class="bi bi-egg"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3">Reptiles</h5>
+                                <p class="card-text text-muted mb-4">
+                                    Cold-blooded vertebrates with scales, including snakes, lizards, turtles, and crocodiles.
+                                </p>
+                                <a href="reptiles.html" class="btn btn-primary">
+                                    <i class="bi bi-arrow-right me-2"></i>
+                                    Explore Reptiles
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="category-icon mb-3">
+                                    <i class="bi bi-water"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3">Fish</h5>
+                                <p class="card-text text-muted mb-4">
+                                    Aquatic creatures with gills and fins, from colorful tropical fish to massive sharks.
+                                </p>
+                                <a href="fish.html" class="btn btn-primary">
+                                    <i class="bi bi-arrow-right me-2"></i>
+                                    Explore Fish
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="category-icon mb-3">
+                                    <i class="bi bi-bug"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3">Invertebrates</h5>
+                                <p class="card-text text-muted mb-4">
+                                    Animals without backbones, including insects, spiders, jellyfish, and octopuses.
+                                </p>
+                                <a href="invertebrates.html" class="btn btn-primary">
+                                    <i class="bi bi-arrow-right me-2"></i>
+                                    Explore Invertebrates
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="category-icon mb-3">
+                                    <i class="bi bi-droplet"></i>
+                                </div>
+                                <h5 class="card-title fw-bold mb-3">Amphibians</h5>
+                                <p class="card-text text-muted mb-4">
+                                    Animals that live both in water and on land, including frogs, toads, and salamanders.
+                                </p>
+                                <a href="amphibians.html" class="btn btn-primary">
+                                    <i class="bi bi-arrow-right me-2"></i>
+                                    Explore Amphibians
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stats Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-card text-center">
+                            <div class="stats-icon mb-3">
+                                <i class="bi bi-globe text-primary"></i>
+                            </div>
+                            <h3 class="fw-bold text-primary">1M+</h3>
+                            <p class="text-muted mb-0">Species Discovered</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-card text-center">
+                            <div class="stats-icon mb-3">
+                                <i class="bi bi-people text-secondary"></i>
+                            </div>
+                            <h3 class="fw-bold text-primary">50K+</h3>
+                            <p class="text-muted mb-0">Wild Enthusiasts</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-card text-center">
+                            <div class="stats-icon mb-3">
+                                <i class="bi bi-camera text-primary"></i>
+                            </div>
+                            <h3 class="fw-bold text-primary">10K+</h3>
+                            <p class="text-muted mb-0">Photos Shared</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-card text-center">
+                            <div class="stats-icon mb-3">
+                                <i class="bi bi-shield-check text-secondary"></i>
+                            </div>
+                            <h3 class="fw-bold text-primary">200+</h3>
+                            <p class="text-muted mb-0">Conservation Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer-gradient text-white py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <h5 class="fw-bold mb-4">
+                            <i class="bi bi-compass footer-brand-icon me-2"></i>
+                            Wild Parkway
+                        </h5>
+                        <p class="footer-text mb-4">
+                            Discover and learn about amazing animals from around the world. Join our community of Wild enthusiasts.
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h6 class="fw-bold mb-3 footer-heading">Animals</h6>
+                        <ul class="list-unstyled footer-links">
+                            <li>
+                                <a href="mammals.html" class="footer-link">Mammals</a>
+                            </li>
+                            <li>
+                                <a href="birds.html" class="footer-link">Birds</a>
+                            </li>
+                            <li>
+                                <a href="reptiles.html" class="footer-link">Reptiles</a>
+                            </li>
+                            <li>
+                                <a href="fish.html" class="footer-link">Fish</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h6 class="fw-bold mb-3 footer-heading">More Animals</h6>
+                        <ul class="list-unstyled footer-links">
+                            <li>
+                                <a href="invertebrates.html" class="footer-link">Invertebrates</a>
+                            </li>
+                            <li>
+                                <a href="amphibians.html" class="footer-link">Amphibians</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 class="fw-bold mb-3 footer-heading">Connect With Us</h6>
+                        <div class="social-links d-flex gap-3 mb-4">
+                            <a href="#" class="social-link">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </div>
+                        <a href="contact.html" class="btn footer-btn">
+                            <i class="bi bi-envelope me-2"></i>
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+                <hr class="footer-divider my-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="footer-copyright mb-0">&copy; 2025 Wild Parkway. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="footer-credit mb-0">
+                            Made with
+                            <i class="bi bi-heart-fill text-danger"></i>
+                            by freeelanceuideveloper.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

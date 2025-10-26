@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lion - Wild Parkway</title>
+        <meta name="author" content="Vega, Freelance UI Developer, freelanceuideveloper.com">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <i class="bi bi-at text-primary"></i>
+                    <span class="text-primary">Wild</span>
+                    <span class="text-secondary">Parkway</span>
+                </a>
+                <button
+                    class="navbar-toggler custom-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle active"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                            >
+                                Animals
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item active" href="mammals.html">
+                                        <i class="bi bi-heart me-2"></i>Mammals
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="birds.html">
+                                        <i class="bi bi-feather me-2"></i>Birds
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="reptiles.html">
+                                        <i class="bi bi-egg me-2"></i>Reptiles
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="fish.html">
+                                        <i class="bi bi-water me-2"></i>Fish
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="invertebrates.html">
+                                        <i class="bi bi-bug me-2"></i>Invertebrates
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="amphibians.html">
+                                        <i class="bi bi-droplet me-2"></i>Amphibians
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header -->
+        <header class="page-header-bg" style="background-image: url('assets/images/lions.jpg');">
+            <div class="container position-relative">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <nav aria-label="breadcrumb" class="mb-4">
+                            <ol class="breadcrumb justify-content-center bg-transparent">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html" class="text-white text-decoration-none">
+                                        <i class="bi bi-house me-1"></i>
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="mammals.html" class="text-white text-decoration-none">
+                                        <i class="bi bi-heart me-1"></i>
+                                        Mammals
+                                    </a>
+                                </li>
+                                <li class="breadcrumb-item active text-white">Lion</li>
+                            </ol>
+                        </nav>
+                        <div class="header-content">
+                            <div class="header-icon mb-4">
+                                <i class="bi bi-award-fill"></i>
+                            </div>
+                            <h1 class="display-3 fw-bold text-white mb-4">
+                                African Lion
+                            </h1>
+                            <p class="lead text-white mb-5 mx-auto" style="max-width: 600px;">
+                                The King of the Jungle - powerful, majestic, and social big cats that rule the African savanna.
+                            </p>
+                            <div class="header-stats d-flex justify-content-center gap-5 text-white">
+                                <div class="stat-item">
+                                    <h3 class="fw-bold mb-1">23,000</h3>
+                                    <small>Population</small>
+                                </div>
+                                <div class="stat-item">
+                                    <h3 class="fw-bold mb-1">15-20</h3>
+                                    <small>Years Lifespan</small>
+                                </div>
+                                <div class="stat-item">
+                                    <h3 class="fw-bold mb-1">190kg</h3>
+                                    <small>Max Weight</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Lion Details Content -->
+        <section class="py-5">
+            <div class="container">
+                <!-- Overview -->
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card shadow-custom rounded-custom">
+                            <div class="card-body p-5">
+                                <h2 class="fw-bold text-primary mb-4">
+                                    <i class="bi bi-info-circle me-2"></i>
+                                    Overview
+                                </h2>
+                                <p class="lead mb-4">
+                                    Lions (Panthera leo) are large cats native to Africa and India. They are the most social of all wild felids and live in groups called prides. Lions are apex predators and are considered a keystone species, playing a crucial role in maintaining the ecological balance of their habitat.
+                                </p>
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <h5 class="fw-semibold text-primary">Scientific Classification</h5>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <strong>Kingdom:</strong> Animalia
+                                            </li>
+                                            <li>
+                                                <strong>Class:</strong> Mammalia
+                                            </li>
+                                            <li>
+                                                <strong>Order:</strong> Carnivora
+                                            </li>
+                                            <li>
+                                                <strong>Family:</strong> Felidae
+                                            </li>
+                                            <li>
+                                                <strong>Genus:</strong> Panthera
+                                            </li>
+                                            <li>
+                                                <strong>Species:</strong> P. leo
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="fw-semibold text-primary">Conservation Status</h5>
+                                        <div class="alert alert-warning" role="alert">
+                                            <i class="bi bi-shield-exclamation me-2"></i>
+                                            <strong>Vulnerable</strong>
+                                            - Population declining
+                                        </div>
+                                        <p class="small text-muted">
+                                            Lion populations have declined by approximately 43% over the past 21 years due to habitat loss and human-Wild conflict.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Physical Characteristics -->
+                <div class="row mb-5">
+                    <div class="col-lg-6">
+                        <div class="card shadow-custom rounded-custom h-100">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold text-primary mb-4">
+                                    <i class="bi bi-rulers me-2"></i>
+                                    Physical Characteristics
+                                </h3>
+                                <div class="characteristics-list">
+                                    <div class="characteristic-item d-flex align-items-center mb-3">
+                                        <div class="char-icon me-3">
+                                            <i class="bi bi-arrows-expand text-secondary"></i>
+                                        </div>
+                                        <div>
+                                            <strong>Length:</strong>
+                                            1.4 - 2.5 meters (body), plus 60-100 cm tail
+                                        </div>
+                                    </div>
+                                    <div class="characteristic-item d-flex align-items-center mb-3">
+                                        <div class="char-icon me-3">
+                                            <i class="bi bi-speedometer2 text-secondary"></i>
+                                        </div>
+                                        <div>
+                                            <strong>Weight:</strong>
+                                            Males 150-250 kg, Females 110-180 kg
+                                        </div>
+                                    </div>
+                                    <div class="characteristic-item d-flex align-items-center mb-3">
+                                        <div class="char-icon me-3">
+                                            <i class="bi bi-palette text-secondary"></i>
+                                        </div>
+                                        <div>
+                                            <strong>Color:</strong>
+                                            Golden-yellow to light brown coat
+                                        </div>
+                                    </div>
+                                    <div class="characteristic-item d-flex align-items-center mb-3">
+                                        <div class="char-icon me-3">
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <div>
+                                            <strong>Mane:</strong>
+                                            Only males have manes, indicating maturity and health
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card shadow-custom rounded-custom h-100">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold text-primary mb-4">
+                                    <i class="bi bi-geo-alt me-2"></i>
+                                    Habitat & Distribution
+                                </h3>
+                                <div class="habitat-info">
+                                    <div class="habitat-item mb-3">
+                                        <h5 class="fw-semibold">Primary Habitat</h5>
+                                        <p class="text-muted">Savannas, grasslands, and open woodlands</p>
+                                    </div>
+                                    <div class="habitat-item mb-3">
+                                        <h5 class="fw-semibold">Geographic Range</h5>
+                                        <p class="text-muted">Sub-Saharan Africa, with a small population in India's Gir Forest</p>
+                                    </div>
+                                    <div class="habitat-item mb-3">
+                                        <h5 class="fw-semibold">Territory Size</h5>
+                                        <p class="text-muted">Prides control territories ranging from 20 to 400 square kilometers</p>
+                                    </div>
+                                    <div class="habitat-item">
+                                        <h5 class="fw-semibold">Climate Preference</h5>
+                                        <p class="text-muted">Warm climates with temperatures between 20-30°C</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Behavior & Social Structure -->
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="card shadow-custom rounded-custom">
+                            <div class="card-body p-5">
+                                <h3 class="fw-bold text-primary mb-4">
+                                    <i class="bi bi-people me-2"></i>
+                                    Behavior & Social Structure
+                                </h3>
+                                <div class="row g-4">
+                                    <div class="col-lg-4">
+                                        <div class="behavior-card text-center p-4 h-100">
+                                            <i class="bi bi-house-heart display-4 text-secondary mb-3"></i>
+                                            <h5 class="fw-semibold">Pride Structure</h5>
+                                            <p class="text-muted small">
+                                                Lions live in family groups called prides, consisting of 2-3 males, several females, and their cubs. This social structure is unique among big cats.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="behavior-card text-center p-4 h-100">
+                                            <i class="bi bi-search display-4 text-secondary mb-3"></i>
+                                            <h5 class="fw-semibold">Hunting Strategy</h5>
+                                            <p class="text-muted small">
+                                                Lionesses do most of the hunting using cooperative strategies. They hunt primarily at dawn and dusk, targeting large herbivores like zebras and wildebeest.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="behavior-card text-center p-4 h-100">
+                                            <i class="bi bi-volume-up display-4 text-secondary mb-3"></i>
+                                            <h5 class="fw-semibold">Communication</h5>
+                                            <p class="text-muted small">
+                                                Lions communicate through roaring, which can be heard up to 8 km away. They also use scent marking, visual displays, and body language.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Conservation & Threats -->
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card shadow-custom rounded-custom border-warning">
+                            <div class="card-body p-5">
+                                <h3 class="fw-bold text-warning mb-4">
+                                    <i class="bi bi-shield-exclamation me-2"></i>
+                                    Conservation & Threats
+                                </h3>
+                                <p class="lead mb-4">
+                                    Lions face numerous threats in the wild, leading to their classification as Vulnerable by the IUCN.
+                                </p>
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <h5 class="fw-semibold text-danger">Major Threats</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-exclamation-triangle text-danger me-2"></i>
+                                                Habitat loss and fragmentation
+                                            </li>
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-exclamation-triangle text-danger me-2"></i>
+                                                Human-Wild conflict
+                                            </li>
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-exclamation-triangle text-danger me-2"></i>
+                                                Poaching and illegal trade
+                                            </li>
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-exclamation-triangle text-danger me-2"></i>
+                                                Prey depletion
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="fw-semibold text-success">Conservation Efforts</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-check-circle text-success me-2"></i>
+                                                Protected area establishment
+                                            </li>
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-check-circle text-success me-2"></i>
+                                                Community-based conservation
+                                            </li>
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-check-circle text-success me-2"></i>
+                                                Anti-poaching initiatives
+                                            </li>
+                                            <li class="list-group-item border-0 px-0">
+                                                <i class="bi bi-check-circle text-success me-2"></i>
+                                                Breeding programs
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fun Facts -->
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card shadow-custom rounded-custom bg-light">
+                            <div class="card-body p-5">
+                                <h3 class="fw-bold text-primary mb-4">
+                                    <i class="bi bi-lightbulb me-2"></i>
+                                    Amazing Lion Facts
+                                </h3>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-warning me-3 mt-1"></i>
+                                            <p class="mb-0">A lion's roar can be heard up to 8 kilometers away</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-warning me-3 mt-1"></i>
+                                            <p class="mb-0">Lions can run up to 50 mph in short bursts</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-warning me-3 mt-1"></i>
+                                            <p class="mb-0">A lion's mane gets darker as it ages</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-warning me-3 mt-1"></i>
+                                            <p class="mb-0">Lions sleep up to 20 hours per day</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-warning me-3 mt-1"></i>
+                                            <p class="mb-0">Female lions do 85-90% of the hunting</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-star-fill text-warning me-3 mt-1"></i>
+                                            <p class="mb-0">Lions have excellent night vision</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer-gradient text-white py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <h5 class="fw-bold mb-4">
+                            <i class="bi bi-compass footer-brand-icon me-2"></i>
+                            Wild Parkway
+                        </h5>
+                        <p class="footer-text mb-4">
+                            Discover and learn about amazing animals from around the world. Join our community of Wild enthusiasts.
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h6 class="fw-bold mb-3 footer-heading">Animals</h6>
+                        <ul class="list-unstyled footer-links">
+                            <li>
+                                <a href="mammals.html" class="footer-link">Mammals</a>
+                            </li>
+                            <li>
+                                <a href="birds.html" class="footer-link">Birds</a>
+                            </li>
+                            <li>
+                                <a href="reptiles.html" class="footer-link">Reptiles</a>
+                            </li>
+                            <li>
+                                <a href="fish.html" class="footer-link">Fish</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h6 class="fw-bold mb-3 footer-heading">More Animals</h6>
+                        <ul class="list-unstyled footer-links">
+                            <li>
+                                <a href="invertebrates.html" class="footer-link">Invertebrates</a>
+                            </li>
+                            <li>
+                                <a href="amphibians.html" class="footer-link">Amphibians</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 class="fw-bold mb-3 footer-heading">Connect With Us</h6>
+                        <div class="social-links d-flex gap-3 mb-4">
+                            <a href="#" class="social-link">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </div>
+                        <a href="contact.html" class="btn footer-btn">
+                            <i class="bi bi-envelope me-2"></i>
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+                <hr class="footer-divider my-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="footer-copyright mb-0">&copy; 2025 Wild Parkway. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="footer-credit mb-0">Made with
+                            <i class="bi bi-heart-fill text-danger"></i> by freeelanceuideveloper.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
